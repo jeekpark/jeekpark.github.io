@@ -58,10 +58,15 @@ type: years
   
  * * *
  
- ## 5. 데비안 설치
- -  Hostname : 해당 컴퓨터의 이름으로 활용된다
- -  Root password : 대문자, 소문자, 숫자 포함하여 10글자 이상. 반복 글자 3이상 X. 유저네임 비포함. 
- -  Full name for the new user : 기본으로 생성할 유저의 이름
- -  Guided - use entire disk and set up encrypted LVM : LVM을 이용하여 암호화된 파티션 생성
- -  Separate /home partition : 홈 디렉토리 생성. (보너스)과제의 요구에 따라 다시 파티셔닝해주어야 함
- -  
+## 5. 데비안 설치
+-  Hostname : 해당 컴퓨터의 이름으로 활용된다
+-  Root password : 대문자, 소문자, 숫자 포함하여 10글자 이상. 반복 글자 3이상 X. 유저네임 비포함. 
+-  Full name for the new user : 기본으로 생성할 유저의 이름
+-  Guided - use entire disk and set up encrypted LVM : LVM을 이용하여 암호화된 파티션 생성
+-  Separate /home partition : 홈 디렉토리 생성. (보너스)과제의 요구에 따라 다시 파티셔닝해주어야 함
+	* 디렉토리의 이해
+		* /var : 가변 데이터 파일, 로그 데이터들이 저장된다.
+		* /var/log : 로그 데이터들이 저장된다.
+		* /boot : 부트로더의 정적 파일들이 저장된다. 
+		* /usr : 시스템이 아닌 사용자가 실행할 프로그램들이 저장된다. 반드시 read-olny 데이터만 존재햐애한다. 
+		* 
