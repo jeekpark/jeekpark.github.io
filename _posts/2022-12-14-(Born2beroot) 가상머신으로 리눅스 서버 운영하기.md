@@ -47,5 +47,12 @@ type: years
 	* ROM은 메인보드에 개별적으로 독립적으로 부착되어 있다. ![ROM_ON_MAINBOARD](https://4.bp.blogspot.com/-g-2Cf-fMT0A/XqbKR0TMl7I/AAAAAAAAEaY/ocRro_lGymwdvZmJh2mBjysK2u00_7QlQCK4BGAYYCw/s1600/30.png)
 	* ROM에는 부팅에 필요한 프로그램들을 저장되어있다. (BIOS)
 	* BIOS는 ‘소프트웨어’가 아니라 **‘펌웨어’** 라고 한다. 유저가 자유롭게 수정할 수 있다면 소프트웨어고 바꿀 수 없게 고정된 것은 펌웨어라고 한다. 대표적으로 BIOS. 프로그램을 수정하고 바꿀 필요가 없기 때문에 Read-Only Memory, ROM에 저장한다.
-4. ㄹㅈㄷ
-1. 메인보드에 전력이 공급되면 부착된 장치들이 작동된다.
+3. 실행된 BIOS는 주변 하드웨어 체크를 한다.
+	* 아래는 체크 프로세스인 POST(Power On Self Test)화면이다. 익숙하죠? 삡-! 소리 나는거 ![POST](https://saungakang.files.wordpress.com/2013/02/post.gif)
+4. 부팅매체를 선택하고 부팅매체에 저장된 부팅정보를 읽어오는 부트스트랩(ROM에 있는 코드)을 실행시킨다.
+5. 부트스트랩과정에서 RAM에 부트로더가 올라가고 부트로더는 디스크에 있는 OS코드를 복사해 메모리에 붙여서 OS를 실행시키고 제어권을 OS에게 넘긴다. 이후 제어권을 상실한 부트로더는 종료된다. **GRUB**
+6. OS부팅 성공
+7. 커널(드라이버)
+	* 커널을 드라이버 집합체라고 이해하면 쉬움. 사운드 드라이버, 그래픽드라이버 등등.
+8. 응용 프로그램 작동
+	* 아래는 체크 프로세스인 POST(Power On Self Test)화면이다. 익숙하죠? 삡-! 소리 나는거
