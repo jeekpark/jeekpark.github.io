@@ -135,4 +135,31 @@ sudo 명령 시 백그라운드에서 새로운 쉘을 실행하고 명령을 �
 	* sudo apt install ufw : 설치
 	* sudo ufw status verbose : 상태 확인
 	* sudo ufw enable : 부팅시 자동실행
-	* sudo allow 4242
+	* sudo ufw allow 4242 : 4242 포트만 허용
+
+* * *
+
+## 10. SSH
+Secure Shell Protocol  
+서버와 컴퓨터가 퍼블릭 네트워크를 통해 통신할 때 안전하게 통신하기 위한 프로토콜  
+- systemctl status ssh : ssh 상태 확인, 포트 확인
+- vim /etc/ssh/sshd_config : ssh설정 변경. sshd는 서버 설정.
+	* port 4242
+	* PermitRootLogin no
+- systemctl restart ssh : ssh 재시작하여 config설정 적용
+
+* * *
+## 11. 유저 관리
+- useradd [option] [username] - 유저 생성
+	* useradd jeekpark  
+- usermod [(-option) (option value)] [username] - 유저 정보 수정  
+- userdel [option] [username] - 유저 삭제, -r옵션 넣으면 모든 관련 디렉토리 삭제  
+	* userdel -r jeekpark  
+- groupadd [option] [groupname]  
+	* groupadd user42  
+- gpasswd [option] [option value] [group]  
+	* gpasswd -a jeekpark user42 (그룹에 추가하기 add)  
+	* gpasswd -a jeekpark sudo
+	* gpasswd -d jeekpark user42 (그룹에서 삭제하기 del)
+- id jeekpark - 속한 그룹 확인하기
+
