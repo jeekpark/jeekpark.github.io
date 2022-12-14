@@ -122,6 +122,17 @@ sudo를 설치하기 위해서 루트 권한이 필요하다.
 7. logout
 8. sudo ls /root : 유저가 sudo 그룹에 포함됐는지 확인
 
-녀
-8. sudo ls /root : 유저가 sudo 그룹에 포함됐는지 
-  
+sudo 명령 시 백그라운드에서 새로운 쉘을 실행하고 명령을 실행한다. 이때 명령을 찾을 경로를 나열한 환경변수가 secure_path
+
+* * *
+
+## 9. UFW
+
+방화벽 관리 프로그램.
+- 보안이 필요한 네트워크의 통로를 단일화하여 외부의 침입을 방어하기 쉽게 만든다.
+- 필요한 포트만 열어둔다.
+- 사용법
+	* sudo apt install ufw : 설치
+	* sudo ufw status verbose : 상태 확인
+	* sudo ufw enable : 부팅시 자동실행
+	* sudo allow 4242
