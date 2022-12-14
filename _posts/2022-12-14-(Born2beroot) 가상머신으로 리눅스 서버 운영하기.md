@@ -55,4 +55,13 @@ type: years
 7. 커널(드라이버)
 	* 커널을 드라이버 집합체라고 이해하면 쉬움. 사운드 드라이버, 그래픽드라이버 등등.
 8. 응용 프로그램 작동
-	* 아래는 체크 프로세스인 POST(Power On Self Test)화면이다. 익숙하죠? 삡-! 소리 나는거
+  
+ * * *
+ 
+ ## 5. 데비안 설치
+ -  Hostname : 해당 컴퓨터의 이름으로 활용된다
+ -  Root password : 대문자, 소문자, 숫자 포함하여 10글자 이상. 반복 글자 3이상 X. 유저네임 비포함. 
+ -  Full name for the new user : 기본으로 생성할 유저의 이름
+ -  Guided - use entire disk and set up encrypted LVM : LVM을 이용하여 암호화된 파티션 생성
+ -  Separate /home partition : 홈 디렉토리 생성. (보너스)과제의 요구에 따라 다시 파티셔닝해주어야 함
+ -  
