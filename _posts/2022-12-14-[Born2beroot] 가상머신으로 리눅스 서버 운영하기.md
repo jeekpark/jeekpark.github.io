@@ -121,5 +121,7 @@ sudo를 설치하기 위해서 루트 권한이 필요하다.
 6. adduser [username] sudo : sudo 그룹에 유저 포함시키기
 7. logout
 8. sudo ls /root : 유저가 sudo 그룹에 포함됐는지 확인
-  
+
+녀
+8. sudo ls /root : 유저가 sudo 그룹에 포함됐는지 
   
