@@ -336,13 +336,9 @@ body {
   border-radius: $border-radius;
   background-color: #d3d3d3;
   font-family: $serif;
-  color: mix(#fff, $primary-color, 80%);
+  color: mix(#fff, $primary-color, 100%);
 
-  &:hover {
-    text-decoration: none;
-    color: mix(#ffffff, $text-color, 40%);
-    /* 커서 댈 때 색깔 */
-  }
+  
 }
 
 .page__taxonomy-item-category {
@@ -355,14 +351,9 @@ body {
   border-radius: $border-radius;
   background-color: #0452a4;
   font-family: $serif;
-  color: mix(#fff, $primary-color, 70%);
+  color: mix(#fff, $primary-color, 100%);
   ;
 
-  &:hover {
-    text-decoration: none;
-    color: mix(#ffffff, $text-color, 40%);
-    /* 커서 댈 때 색깔 */
-  }
 }
 
 
