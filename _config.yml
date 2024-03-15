@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default"  "air", "aqua", "contrast", , "dir
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : " Game Dev Forever - Jeekun Park💻"
+title                    : " 무엇이든 고쳐드립니다 💻"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jeekun Park"
