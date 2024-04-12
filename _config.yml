@@ -23,7 +23,7 @@ title: "무엇이든 고쳐드립니다" # 상단 헤더에 보이는 블로그 
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "jeekpark" # 블로그 닉네임 설정
-description: "this is my blog!" # 블로그 설명
+description: "description" # 블로그 설명
 url: "https://jeekpark.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "jeekpark/jeekpark.github.io" # GitHub Repo 이름
@@ -98,8 +98,8 @@ analytics:
 
 # Site Author
 author:
-  name: "your name here" # 블로그 닉네임
-  avatar: "/assets/images/meee.png" # 블로그 프로필 사진
+  name: "jeekpark" # 블로그 닉네임
+  avatar: "/assets/images/profile.png" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
