@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://reoul.github.io/sitemap_naver.xml
