@@ -3,11 +3,11 @@ title: "킬러 B"
 excerpt: "C 언어로 싱글스레드 레이케스팅을 구현해보는 프로젝트(샤라울 투 존 카맥)"
 
 categories:
-  - Project
+  - Hobby
 tags:
-  - [Project]
+  - [hobby]
 
-permalink: /categories/project/killer-b/
+permalink: /categories/hobby/top-games/
 
 toc: true
 toc_sticky: true
