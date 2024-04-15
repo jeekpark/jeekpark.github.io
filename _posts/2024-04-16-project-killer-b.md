@@ -7,7 +7,7 @@ categories:
 tags:
   - [hobby]
 
-permalink: /categories/hobby/top-games/
+permalink: /categories/hobby/killer-b/
 
 toc: true
 toc_sticky: true
