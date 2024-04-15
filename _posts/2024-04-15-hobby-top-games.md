@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2024-04-15
-last_modified_at: 2022-04-15
+last_modified_at: 2024-04-15
 ---
 
 ## 게임과 개발자
