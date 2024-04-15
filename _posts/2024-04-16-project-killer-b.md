@@ -5,7 +5,7 @@ excerpt: "C 언어로 싱글스레드 레이케스팅을 구현해보는 프로�
 categories:
   - Project
 tags:
-  - [hobby]
+  - [project, c, graphics]
 
 permalink: /categories/project/killer-b/
 
