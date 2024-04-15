@@ -12,8 +12,8 @@ permalink: /categories/project/killer-b/
 toc: true
 toc_sticky: true
 
-date: 2024-04-16
-last_modified_at: 2024-04-16
+date: 2024-04-15
+last_modified_at: 2024-04-15
 ---
 
 # 프로젝트 소개
