@@ -18,7 +18,7 @@ last_modified_at: 2024-04-15
 
 # 프로젝트 소개
 
-<img src="https://static.wikia.nocookie.net/wl6/images/5/5c/Johncarmack1.jpg">
+<img src="https://static.wikia.nocookie.net/wl6/images/5/5c/Johncarmack1.jpg" width="100%">
 
 이드 소프트웨어 시절, 존 카맥
 
