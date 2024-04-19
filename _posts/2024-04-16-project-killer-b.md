@@ -1,6 +1,6 @@
 ---
-title: "킬러 바나나"
-excerpt: "C 언어로 싱글스레드 레이케스팅을 구현해보는 프로젝트(샤라울 투 존 카맥)"
+title: "레이케스팅 게임: 킬러 바나나"
+excerpt: "C 언어로 싱글스레드 레이케스팅을 구현해보는 프로젝트"
 
 categories:
   - Project
@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2024-04-15
-last_modified_at: 2024-04-15
+last_modified_at: 2024-04-19
 ---
 
 # 프로젝트 소개
