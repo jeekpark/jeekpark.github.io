@@ -1,5 +1,5 @@
 ---
-title: "[IoT] 커뮤트 큐브: 프로토타입 설계"
+title: "[IoT] 커뮤트 큐브: 1편 프로토타입 설계"
 excerpt: "프로토타입은 결국 아두이노 만한게 없다."
 
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - []
 
-permalink: /categories/project/commute-cube-prototype-design/
+permalink: /categories/project/commute-cube-1/
 
 toc: true
 toc_sticky: true
