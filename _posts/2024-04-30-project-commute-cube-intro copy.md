@@ -25,8 +25,10 @@ last_modified_at: 2024-05-02
 버스 정류장의 전광판을 구현할려면 벽시계 타입이 알맞을 것 같습니다. 제 방에 실물 사이즈의 버스 전광판이 있다면 재밌을 것 같기도 합니다. 반면 탁상시계는 많이 귀여울 것 같습니다. 비용적인 측면에서 고려해본다면 탁상시계가 훨씬 경제적일 것 같습니다. 아날로그 시계가 아니라 디지털이기 때문에 발광되는 점에서도 밤에도 빛이나는 벽시계는 부담스러울 것 같습니다. 밤에는 끄면되기야하겠지만 끄고 킨다는 UX는 귀찮을 것 같다는 생각도 듭니다. 따라서 프로토타입은 탁상 시계 사이즈가 적당할 것 같습니다.
 
 # 도트 매트릭스 vs LCD 디스플레이
-<img src="https://raw.githubusercontent.com/jeekpark/jeekpark.github.io/main/assets/images/posts_img/commute-cube/dot-matrix-32.jfif" width="50%">
-<>
+<div style="display: flex; width: 100%;">
+  <img src="https://raw.githubusercontent.com/jeekpark/jeekpark.github.io/main/assets/images/posts_img/commute-cube/dot-matrix-32.jfif" width="50%">
+  <img src="https://raw.githubusercontent.com/jeekpark/jeekpark.github.io/main/assets/images/posts_img/commute-cube/tft-display.jpg", width="50%">
+</div>
 도트 매트릭스는 스포츠 경기장이나 공공 장소에서 흔히 볼 수 있습니다. 32*32 도트매트릭스를 8~12개를 이어서 만들어야 해상도가 겨우 나올텐데, 부품값 부품 조립의 복작함, 그리고 대략적인 계산으로는 100와트 가량 소모될 것 같습니다. 무엇보다도 도트매트릭스는 크기가 작은게 많이 없고 있어도 LED 패널에 들어가는 부품이라 비용문제도 발생합니다. 경제적인 측면에서 생각해보면 탁상용으로 사용할 3.5인치 TFT 디스플레이로 간단하게 만들어보는 것이 좋을 것 같습니다.
 
 # 마이크로컨트롤러 vs 소형컴퓨터
