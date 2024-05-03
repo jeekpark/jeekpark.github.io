@@ -3,11 +3,11 @@ title: "[IoT] 커뮤트 큐브: 0편 인트로"
 excerpt: "외출 전에 교통앱으로 버스시간 확인하는데 앱키는 것도 귀찮습니다. 제 방에 버스전광판을 설치해보려고 합니다."
 
 categories:
-  - Project
+  - iot-commute-cube
 tags:
   - []
 
-permalink: /categories/project/commute-cube-0/
+permalink: /categories/project/commute-cube/0
 
 toc: true
 toc_sticky: true

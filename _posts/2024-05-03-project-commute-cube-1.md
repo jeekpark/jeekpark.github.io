@@ -3,11 +3,11 @@ title: "[IoT] 커뮤트 큐브: 2편 아두이노 세팅 (Wemos D1 R32 ESP32) LE
 excerpt: "Wemos D1 R32 ESP32 플래시(업로드) 문제 해결하기"
 
 categories:
-  - Project
+  - iot-commute-cube
 tags:
   - []
 
-permalink: /categories/project/commute-cube-2/
+permalink: /categories/project/commute-cube/2
 
 toc: true
 toc_sticky: true
