@@ -24,11 +24,9 @@ categories:
     url: /categories/cpp/
   - title: "SIMD"
     url: /categories/simd/
-    
   - title: "Project"
-    children:
-      - title: "IoT: Commute Cube"
-        url: /categories/project/
-
+    url: /categories/project/
+  - title: "IoT Project: Commute Cube"
+    url: /categories/project/commute-cube/
   - title: "Hobby"
     url: /categories/hobby/
