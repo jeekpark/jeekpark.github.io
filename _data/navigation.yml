@@ -25,6 +25,10 @@ categories:
   - title: "SIMD"
     url: /categories/simd/
   - title: "Project"
-    url: /categories/project/
+    children:
+      - title: "IoT: Commute Cube"
+        url: /categories/project/
+      - title: "Game: Banana Killer"
+        url: /categories/project/
   - title: "Hobby"
     url: /categories/hobby/
