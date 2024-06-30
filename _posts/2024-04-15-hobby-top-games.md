@@ -3,11 +3,11 @@ title: "게임은 왜 특별할까"
 excerpt: "위대한 작품은 돈으로 만들어지는 것이 아니라 누군가의 집착과 열정으로 만들어진다."
 
 categories:
-  - Hobby
+  - Life
 tags:
-  - [hobby]
+  - []
 
-permalink: /categories/hobby/top-games/
+permalink: /categories/life/top-games/
 
 toc: true
 toc_sticky: true
