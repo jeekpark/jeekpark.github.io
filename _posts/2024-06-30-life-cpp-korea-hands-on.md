@@ -7,7 +7,7 @@ categories:
 tags:
   - []
 
-permalink: /categories/life/cpp-korea-hands-on-cocurrunt/
+permalink: /categories/life/cpp-korea-hands-on-concurrunt/
 
 toc: true
 toc_sticky: true
