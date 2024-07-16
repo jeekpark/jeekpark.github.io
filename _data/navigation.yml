@@ -22,6 +22,8 @@ categories:
     url: /categories/c/
   - title: "C++"
     url: /categories/cpp/
+  - title: "Math"
+    url: /categories/math/
   - title: "SIMD"
     url: /categories/simd/
   - title: "Project"
