@@ -26,7 +26,8 @@ categories:
     url: /categories/math/
   - title: "SIMD"
     url: /categories/simd/
-  - title: "Project"
+  - title: "기술 인터뷰"
+  - title: "Interview"
     url: /categories/project/
   - title: "IoT Project: Commute Cube"
     url: /categories/project/commute-cube/
