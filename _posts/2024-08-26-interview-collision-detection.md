@@ -3,7 +3,7 @@ title: "모의 면접 질문: 충돌 감지(collision detection)"
 excerpt: "기술 면접의 예상 질문을 답변하고, GPT에게 피드백 받기"
 
 categories:
-  - Math
+  - Interview
 tags:
   - []
 
