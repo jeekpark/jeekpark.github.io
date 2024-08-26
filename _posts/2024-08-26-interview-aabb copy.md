@@ -7,7 +7,7 @@ categories:
 tags:
   - []
 
-permalink: /categories/interview/aabb/
+permalink: /categories/interview/ai-astart/
 
 toc: true
 toc_sticky: true
