@@ -12,8 +12,8 @@ permalink: /categories/interview/collision-detection/
 toc: true
 toc_sticky: true
 
-date: 2024-08-26
-last_modified_at: 2024-08-26
+date: 2024-08-25
+last_modified_at: 2024-08-25
 ---
 
 # 예상 질문
