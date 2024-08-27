@@ -1,6 +1,6 @@
 ---
 title: "BGRA vs RGBA 픽셀 데이터 포멧"
-excerpt: "픽셀 데이터를 저장하는 방식"
+excerpt: "순서만 다른데 왜 성능차이가 날까?"
 
 categories:
   - DirectX11
