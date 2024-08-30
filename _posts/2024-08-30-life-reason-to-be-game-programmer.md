@@ -12,8 +12,8 @@ permalink: /categories/life/reason-to-be-game-programmer/
 toc: true
 toc_sticky: true
 
-date: 2024-06-30
-last_modified_at: 2024-06-30
+date: 2024-08-30
+last_modified_at: 2024-08-30
 ---
 
 # 왜 게임 개발자가 되고싶은가
