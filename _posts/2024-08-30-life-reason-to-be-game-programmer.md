@@ -33,12 +33,15 @@ user@hostname:~$ * shoots an ice bolt at target *
 **프랑스의 예술 분류법**
 **제10의 예술: 게임, 디지털 예술**
 
-<img src="https://github.com/jeekpark/jeekpark.github.io/blob/main/assets/images/posts_img/life/classificatory-disputes-about-art.png?raw=true" style="width: 70%; height: auto; object-fit: cover;">
+<img src="https://github.com/jeekpark/jeekpark.github.io/blob/main/assets/images/posts_img/life/classificatory-disputes-about-art.png?raw=true" style="width: 80%; height: auto; object-fit: cover;">
 
 ---
 
-# End
+# 결론
 
 무엇이든 고쳐드립니다 🎯
 
 -함께 일하기 좋은 개발자 jeekpark
+
+
+---
