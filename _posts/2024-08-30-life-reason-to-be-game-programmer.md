@@ -22,7 +22,7 @@ last_modified_at: 2024-08-30
 
 2023년. 과제를 하던 더운 여름 날이었다. 콘솔창에 주인공이 ICE BOLT라는 스킬을 사용하는 코드를 작성했는데 실행하는 순간 전율을 느낀 적이 있다. 
 ```
-user@hostname:~$ * shoots an ice bolt at target *
+user@hostname:~$ * shoots an ice bolt at Mist Dragon *
 ```
 
 게임은 새로운 세계를 창조하는 일종의 예술이기 때문의 창조의 카타르시스를 느낄 수 있는 것 같다. 볼품없는 검은색 콘솔창에 단지 문자열이 출력된 것 뿐이지만, 내가 캐릭터에 생명력을 불어넣고 새로운 세계를 창조한 것 같은 느낌이었다.
