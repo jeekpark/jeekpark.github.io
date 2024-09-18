@@ -77,7 +77,7 @@ int main()
 # 소스코드 설명
 
 ## 1. Pool 클래스
-```Pool``` 클래스는 정적 크기(```PoolSize```)의 객체를 생성하여 객체의 사용과 반납을 관리합니다. 필요할 때 객체를 풀에서 꺼내오고, 사용 후 다시 풀에 반환되는 방식입니다. **유니크 포인터**의 커스텀 해제자를 통해 메모리 관리를 자동화합니다.
+```Pool``` 클래스는 정적 크기(```PoolSize```)의 객체를 생성하여 객체의 사용과 반납을 관리합니다. 필요할 때 객체를 풀에서 꺼내오고, 사용 후 다시 풀에 자동으로 반환되는 방식입니다. **유니크 포인터**의 커스텀 해제자를 통해 메모리 관리를 자동화합니다.
 
 **클래스 정의**
 
@@ -95,6 +95,7 @@ class Pool
 **멤버 변수**
 
 1. ```mAvailableObjects```
+
 ```cpp
 template<typename T>
 class ReservableStack : public std::stack<T, std::vector<T>>
@@ -104,8 +105,8 @@ public:
 };
 
 ReservableStack<T*> mAvailableObjects; // 스택
-
 ```
+
 ```mAvailableObjects```는 사용 가능한 오브젝트들을 스택으로 저장하여 하나씩 획득할 수 있도록합니다.
 
 여기서 타입이 독특합니다. ```ReservableStack```은 메모리 크기를 미리 확보할 수 있는 ```std::stack```의 변형 스택입니다. ```std::stack```은 기본값으로 내부 컨테이너를 ```std::deque```로 사용합니다. ```std::deque```는 push/pop 과정에서 메모리 재할당이 자동으로 이루어질 수 있는 위험이 있습니다. 게임이나 고성능 프로그래밍에서 의도하지 않은 병목이 발생할 수 있기 때문에 정적인 크기로 지정하여 해당 크기 안에서 push/pop을 하더라도 메모리 재할당이 자동으로 작동하지 않도록 방지해줍니다. ```ReservableStack```은 ``` std::stack<T, std::vector<T>>```을 상속받아 스택의 내부 구조가 ```std::vector```로 작동할 수 있도록 해주고, ```reserve()```함수를 노출하여 스택의 크기를 미리 확보할 수 있도록합니다. 만약 ```reserve(500)```을 호출하여 미리 500개의 공간을 만들어 둔다면 500개 내의 요소를 push/pop하는 과정에서는 메모리 재할당이 일어나지 않습니다.
@@ -135,11 +136,13 @@ Pool(Args&&... args)
   }
 }
 ```
+
 생성자에서는 가변인자 템플릿을 이용해 ```T```객체의 생성자를 호출합니다. 가변인자 템플릿을 이용한다면 디폴트 생성자 외의 다양한 생성자로 객체를 초기화할 수 있는 이점이 있습니다.
 
 풀에 저장할 객체는 ```mAvailableObjects```스택과 ```mAllPointers```배열에 모두 저장됩니다.
 
 동일한 요소를 똑같이 저장하는 두 자료구조입니다. 용도는 다음과 같이 구분됩니다.
+
 - ```mAvailableObjects```: 획득/반환을 위해 저장하는 스택(필요할때 하나씩 pop해서 준다.)
 - ```mAllPointers```: ```Pool``` 소멸시 모든 객체를 해제시켜주기 위해 저장.
 
@@ -204,6 +207,7 @@ auto Acquire() noexcept
 ```cpp
 size_t GetAvailableObjectCount() const noexcept { return mAvailableObjects.size(); }
 ```
+
 현재 풀에서 사용 가능한 객체 수를 반환하는 함수입니다. 이는 풀의 상태를 확인할 때 유용합니다.
 
 
