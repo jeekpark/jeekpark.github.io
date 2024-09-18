@@ -74,6 +74,8 @@ int main()
 
 **unique_ptr가 스코프를 벗어나거나(unique_ptr의 RAII 특성 참고)** 명시적으로 ```reset()```이 호출될 때, 커스텀 ```deleter```가 호출되어 자동으로 오브젝트풀에 객체가 반납됩니다.
 
+<br>
+
 # 소스코드 설명
 
 ## 1. Pool 클래스
@@ -142,7 +144,6 @@ Pool(Args&&... args)
 풀에 저장할 객체는 ```mAvailableObjects```스택과 ```mAllPointers```배열에 모두 저장됩니다.
 
 동일한 요소를 똑같이 저장하는 두 자료구조입니다. 용도는 다음과 같이 구분됩니다.
-
 - ```mAvailableObjects```: 획득/반환을 위해 저장하는 스택(필요할때 하나씩 pop해서 준다.)
 - ```mAllPointers```: ```Pool``` 소멸시 모든 객체를 해제시켜주기 위해 저장.
 
