@@ -29,10 +29,10 @@ comments: false
 - 고2: 문과 진학(큰 실수).
     - 예술가 집안이었기 때문에 나도 예술쪽으로 가야한다고 생각했었다.
     - (원래 그림을 잘그리기도 했었으니)
-
 - 고2: 교내 물리대회, 기술대회 최우수상 수상
     - 문과임에도 물리분야, 기술분야 대회에 나가서 최우수상을 탔다.
     - 잘난체하는 이과 친구들 이겨서 기분 좋았다.
+    - 기술대회에서는 소형 해상 구조 로봇을 만들었는데 코딩하는게 재밌었다.
 - 고2: 로봇동아리 회장
     - 2년간 회장 맡았다.
     - 경기도 교육청으로부터 600만원 가량의 지원금 받았다. 
@@ -67,13 +67,17 @@ comments: false
 - 라미두스(경기마을교육공동체), 방과후 로봇학교, 설립자 (2016)
 
 ### 디자이너 커리어
-- 도프앤컴퍼니, 광고브랜드디자인 팀장 (2020.10~2022.11)
-    - 현대자동차그룹, Brand archive, design [*****]
-    - LG전자, Brand design [MADE IN CHANGWON]
-    - KT, Brand design, invertisement, [Beautiful New World]
-    - 시몬느, Brand archive, brand design
-    - FORTUNE KOREA, Magazine cover design, cover photo
-- DADA, Freelance photographer (2020~2022)
-- New Eye Group, Freelance designer (2019~2020)
-- (주)블루나래, Game & AR, Planning Department, designer (2018~2019)
+- 'n company, 광고브랜드디자인팀, 디자이너, 팀장 (2020.10~2022.11)
+    - 현대자동차그룹, Brand Archive [xxxxx]<br>
+    - LG전자, Brand Archive [MADE IN CHANGWON]<br>
+    - KT, Brand Design [Beautiful new world]<br>
+    - Simone, Brand Archive [xxxxx]<br>
+    - FORTUNE KOREA, 매거진 커버 작업, 커버 사진<br>
+- 혜윰 (경기마을교육공동체), 방과후 로봇코딩(아두이노) 강사. (2019)
+- (주)블루나래, 교육용 게임 제작, 디자이너, 사원 (2018~2019)
+
+### INTERESTS
+- 기술 토론, 기술 설명, 피드백
+- 그래픽스, **폰노이만 구조의 아름다움**
+- 음악 • 게임 • 애니 • 코드 • 사진
 
