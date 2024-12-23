@@ -65,12 +65,10 @@ comments: false
 <br>
 
 - 현재: 42서울 심화과정(3년과정, 아우터서클) 진행중
-- 현재: 방통대로 컴퓨터과학과 공부 병행중.
 - 현재: 폰노이만 구조의 아름다움을 즐기며 엔지니어링을 배우고 있다.
 - 현재: 여정은 계속됩니다.
 
 # 학력
-- KNOU, Computer Science (2024.09~)
 - École 42(42Seoul), Computer Science, Member (2024.07.30~)
 - École 42(42Seoul), Computer Science, Learner (2022.11.07~2024.07.30)
 - KUAD, Photographic Arts (2019~2019)
